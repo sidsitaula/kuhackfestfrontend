@@ -1,0 +1,76 @@
+.mainBody {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.leftPanel {
+  background-color: blue;
+  height: 100vh;
+  flex: 1;
+}
+
+.rightPanel {
+  height: 100vh;
+  flex: 2;
+  padding: 2%;
+}
+
+.buttonRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.teacherButton {
+  cursor: pointer;
+  transition: 1s;
+  outline: none;
+  background-color: var(--mainColor);
+  color: white;
+  font-family: var(--mainFont);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.studentButton {
+  cursor: pointer;
+  transition: 1s;
+  outline: none;
+  background-color: var(--secondaryColor);
+  color: white;
+  font-family: var(--mainFont);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.disabledButton {
+  cursor: pointer;
+  transition: 1s;
+  outline: none;
+  filter: grayscale(100%);
+  background-color: blue;
+  color: rgb(119, 117, 117);
+  font-family: var(--mainFont);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.loginHead{
+    
+}
