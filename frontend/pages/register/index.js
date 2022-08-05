@@ -1,9 +1,13 @@
 import Register from "../../components/Register";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <Register/>
+      <Head>
+        <title>Register</title>
+      </Head>
+      <Register />
     </>
   );
 }
